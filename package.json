@@ -1,0 +1,22 @@
+{
+  "name": "binancefy",
+  "version": "1.0.0",
+  "description": "The world's largest crypto exchange trading library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nrjdalal/binancefy.git"
+  },
+  "keywords": [
+    "binance"
+  ],
+  "author": "Neeraj Dalal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nrjdalal/binancefy/issues"
+  },
+  "homepage": "https://github.com/nrjdalal/binancefy#readme"
+}
