@@ -2,7 +2,7 @@
 
 [![GitHub license][mit-image]][mit-url] &middot;
 [![NPM Version][npm-image]][npm-url] &middot;
-[![Downloads Stats][npm-downloads]][npm-url] &middot;
+[![Downloads Stats][npm-downloads]][npm-url]
 
 [mit-image]: https://img.shields.io/badge/license-MIT-blue.svg
 [mit-url]: https://en.wikipedia.org/wiki/MIT_License
