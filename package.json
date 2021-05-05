@@ -1,10 +1,10 @@
 {
 	"name": "binancefy",
-	"version": "1.0.6",
+	"version": "1.0.102",
 	"description": "The world's largest crypto exchange trading library",
 	"main": "index.js",
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"test": "node _development/app"
 	},
 	"repository": {
 		"type": "git",
