@@ -1,1 +1,1 @@
-module.exports = require('./actions/getSymbols')
+module.exports = require('./actions/cc')

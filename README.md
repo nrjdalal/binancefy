@@ -38,7 +38,7 @@ Get trading symbols by their Quote
 const cc = require('binancefy')
 
 const getSymbols = async () => {
-	const symbols = cc.quote('USDT')
+	const symbols = await cc.quote('USDT')
 	console.log(symbols)
 }
 
