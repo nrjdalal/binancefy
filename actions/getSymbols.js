@@ -81,5 +81,3 @@ const getByBase = async (base, baseVolume = 0) => {
 }
 
 module.exports = { getByQuote, getByBase }
-
-// test
