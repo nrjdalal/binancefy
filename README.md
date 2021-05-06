@@ -30,7 +30,7 @@ npm i binancefy
 
 On successful implementation, an array of objects is returned which contains the list of symbols sorted in order of decreasing volume.
 
-1.1 crypto-currency pairs by their Quote (mainly used) \*
+#### 1.1 crypto-currency pairs by their Quote (mainly used) \*
 
 ```js
 const cc = require('binancefy')
@@ -38,7 +38,7 @@ const cc = require('binancefy')
 const symbols = await cc.quote('USDT')
 ```
 
-1.2 crypto-currency pairs by their Base
+#### 1.2 crypto-currency pairs by their Base
 
 ```js
 const cc = require('binancefy')
