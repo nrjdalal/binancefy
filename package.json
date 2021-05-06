@@ -1,25 +1,25 @@
 {
-	"name": "binancefy",
-	"version": "1.0.107",
-	"description": "The world's largest crypto exchange trading library",
-	"main": "index.js",
-	"scripts": {
-		"test": "node _development/app"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/nrjdalal/binancefy.git"
-	},
-	"keywords": [
-		"binance"
-	],
-	"author": "Neeraj Dalal",
-	"license": "MIT",
-	"bugs": {
-		"url": "https://github.com/nrjdalal/binancefy/issues"
-	},
-	"homepage": "https://github.com/nrjdalal/binancefy#readme",
-	"dependencies": {
-		"axios": "^0.21.1"
-	}
+  "name": "binancefy",
+  "version": "1.0.107",
+  "description": "The world's largest crypto exchange trading library",
+  "main": "index.js",
+  "scripts": {
+    "test": "node _development/app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nrjdalal/binancefy.git"
+  },
+  "keywords": [
+    "binance"
+  ],
+  "author": "Neeraj Dalal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nrjdalal/binancefy/issues"
+  },
+  "homepage": "https://github.com/nrjdalal/binancefy#readme",
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
 }
