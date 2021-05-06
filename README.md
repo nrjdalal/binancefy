@@ -32,17 +32,24 @@ $ npm i binancefy
 
 ## Usage
 
-Get trading symbols by their Quote
+### 1. Getting trading symbols using cc
+
+> cc - stands for crypto-currency, a 'cc' pair consists of Base currency and Quote currency, like in BTCUSDT - BTC is Base currency and USDT is Quote currency <br> &nbsp;&nbsp; In most cases the Quote currency is used to find respective cc pairs.
+
+1.1 crypto-currency pairs by their Quote (mainly used) \*
 
 ```js
 const cc = require('binancefy')
 
-const getSymbols = async () => {
-  const symbols = await cc.quote('USDT')
-  console.log(symbols)
-}
+const symbols = await cc.quote('USDT')
+```
 
-getSymbols()
+1.2 crypto-currency pairs by their Base
+
+```js
+const cc = require('binancefy')
+
+const symbols = await cc.base('BTC')
 ```
 
 ## Examples
