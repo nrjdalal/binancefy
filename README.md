@@ -14,20 +14,12 @@
 
 ## Installation
 
-This is a [Node.js](https://nodejs.org/en/) module available through the
-[npm registry](https://www.npmjs.com/).
+This is a [Node.js](https://nodejs.org/en/) module available through the [npm registry](https://www.npmjs.com/).
 
-Before installing, [download and install Node.js](https://nodejs.org/en/download/).
-Node.js 0.10 or higher is required.
-
-If this is a brand new project, make sure to create a `package.json` first with
-the [`npm init` command](https://docs.npmjs.com/creating-a-package-json-file).
-
-Installation is done using the
-[`npm install` command](https://docs.npmjs.com/getting-started/installing-npm-packages-locally):
+Installation is done using the [`npm install` command](https://docs.npmjs.com/getting-started/installing-npm-packages-locally):
 
 ```sh
-$ npm i binancefy
+npm i binancefy
 ```
 
 ## Usage
@@ -35,6 +27,8 @@ $ npm i binancefy
 ### 1. Getting trading symbols using cc
 
 > cc - stands for crypto-currency, a 'cc' pair consists of Base currency and Quote currency, like in BTCUSDT - BTC is Base currency and USDT is Quote currency <br> &nbsp;&nbsp; In most cases the Quote currency is used to find respective cc pairs.
+
+On successful implementation, an array of objects is returned which contains the list of symbols sorted in order of decreasing volume.
 
 1.1 crypto-currency pairs by their Quote (mainly used) \*
 
