@@ -35,7 +35,12 @@ On successful implementation, an array of objects is returned which contains the
 ```js
 const cc = require('binancefy')
 
-const symbols = await cc.quote('USDT')
+const getSymbols = async () => {
+  const symbols = await cc.quote('USDT')
+  console.log(symbols)
+}
+
+getSymbols()
 ```
 
 #### 1.2 crypto-currency pairs by their Base
@@ -43,7 +48,12 @@ const symbols = await cc.quote('USDT')
 ```js
 const cc = require('binancefy')
 
-const symbols = await cc.base('BTC')
+const getSymbols = async () => {
+  const symbols = await cc.base('BTC')
+  console.log(symbols)
+}
+
+getSymbols()
 ```
 
 ## Examples
