@@ -1,1 +1,1 @@
-npm unpublish binancefy@1.0.3
+npm unpublish binancefy@1.0.4

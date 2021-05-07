@@ -1,6 +1,6 @@
 {
   "name": "binancefy",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "The world's largest crypto exchange trading library",
   "main": "dist/core/index",
   "scripts": {

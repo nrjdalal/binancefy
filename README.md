@@ -33,10 +33,10 @@ On successful implementation, an array of objects is returned which contains the
 #### 1.1 crypto-currency pairs by their Quote (mainly used) \*
 
 ```js
-const cc = require('binancefy')
+const bfy = require('binancefy')
 
 const getSymbols = async () => {
-  const symbols = await cc.quote('USDT')
+  const symbols = await bfy.getQuote('USDT')
   console.log(symbols)
 }
 
@@ -46,10 +46,10 @@ getSymbols()
 #### 1.2 crypto-currency pairs by their Base
 
 ```js
-const cc = require('binancefy')
+const bfy = require('binancefy')
 
 const getSymbols = async () => {
-  const symbols = await cc.base('BTC')
+  const symbols = await bfy.getBase('BTC')
   console.log(symbols)
 }
 
