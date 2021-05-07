@@ -1,10 +1,10 @@
 {
   "name": "binancefy",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "The world's largest crypto exchange trading library",
   "main": "index.js",
   "scripts": {
-    "test": "node _development/app",
+    "test": "nodemon dist/test/cc",
     "prepublishOnly": "node ./publish",
     "postpublish": "sh ./publish/unpubli.sh"
   },
@@ -23,5 +23,19 @@
   "homepage": "https://github.com/nrjdalal/binancefy#readme",
   "dependencies": {
     "axios": "^0.21.1"
+  },
+  "devDependencies": {
+    "@types/node": "^15.0.2",
+    "@typescript-eslint/eslint-plugin": "^4.22.1",
+    "@typescript-eslint/parser": "^4.22.1",
+    "eslint": "^7.25.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-prettier": "^3.4.0",
+    "nodemon": "^2.0.7",
+    "prettier": "^2.2.1",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.4"
   }
 }
