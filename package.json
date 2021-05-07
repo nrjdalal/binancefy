@@ -1,10 +1,9 @@
 {
   "name": "binancefy",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "The world's largest crypto exchange trading library",
-  "main": "index.js",
+  "main": "dist/core/index",
   "scripts": {
-    "test": "nodemon dist/test/cc",
     "prepublishOnly": "node ./publish",
     "postpublish": "sh ./publish/unpubli.sh"
   },
